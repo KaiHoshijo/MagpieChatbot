@@ -284,7 +284,11 @@ public class Magpie5
 	private String [] randomResponses = {"Interesting, tell me more",
 			"Hmmm.",
 			"Do you really think so?",
-			"You don't say."
+      "You don't say.",
+      "The world is round",
+      "One day, we'll be an inter-plantery race.",
+      "There is a birthday of one of Genghis Khan's descendants everyday.",
+      "Github is owned by Microsoft, so using Atom over VS Code solves nothing."
 	};
 	
 }
