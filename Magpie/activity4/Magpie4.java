@@ -57,6 +57,10 @@ public class Magpie4
             int num = findKeyword(statement, "I want", 0);
             response = "Would you really be happy if you had" + statement.substring(num+6);
         }
+        else if (statement.split(" ").length == 3 && findKeyword(statement, "I") >= 0 && findKeyword(statement, "you") >= 0) {
+          String want = statement.split(" ")[1];
+          response = "Why do you " + want + " me?";
+        }
         else
         {
             // Look for a two word (you <something> me)
